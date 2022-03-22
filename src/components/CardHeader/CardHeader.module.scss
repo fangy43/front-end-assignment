@@ -1,0 +1,45 @@
+@import '../../styles/color.scss';
+
+.header {
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: solid 2px #d8d8d8;
+    width: 100%;
+    line-height: 16px;
+    .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 4px 0 0 20px;
+        width: 100%;
+        .flexrowSpace {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+            align-items: center;
+            .faculty {
+                font-size: 24px;
+                font-weight: 600;
+                color: $grapefruit;
+                padding: 4px 0;
+            }
+        }
+        .department {
+            font-size: 20px;
+            font-weight: 500;
+            color: $warm-grey;
+            padding: 4px 0;
+            
+            width: 280px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .university {
+            font-size: 20px;
+            font-weight: 300;
+            color: $warm-grey;
+        }
+    }
+}

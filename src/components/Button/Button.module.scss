@@ -1,0 +1,19 @@
+@import '../../styles/color.scss';
+.button{
+    width: 120px;
+    height: 35px;
+    border-radius: 17.5px;
+    border: solid 1px $grapefruit;
+
+    font-size: 12px;
+    font-weight: 500;
+    color:$grapefruit;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap:10px;
+    cursor:pointer;
+    
+}

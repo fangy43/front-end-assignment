@@ -1,0 +1,13 @@
+@import '../../styles/color.scss';
+
+.footer {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px ;
+    font-size: 12px;
+    border-top: solid 2px #d8d8d8;
+    font-weight: 300;
+    font-stretch: normal;
+    color: $warm-grey;
+}
